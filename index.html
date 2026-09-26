@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f5f3ef" />
+  <meta name="description" content="Audrey's portfolio: biomedical engineering, research, and projects." />
+  <title>Audrey — Biomedical Engineering & Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Audrey, home"><span class="brand-mark">A<span class="brand-dot">.</span></span><span class="brand-label">AUDREY / PORTFOLIO</span></a>
+    <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#experience">Experience</a><a href="#about">About</a><a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a></nav>
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> BIOMEDICAL ENGINEERING · HARVARD ’28</div><h1>Curious about biology.<br><em>Driven to build.</em></h1><p>I’m Audrey, a biomedical engineering student exploring the space between research, technology, and the people it can serve.</p><div class="hero-actions"><a class="button primary" href="#work">Explore my work <span>↗</span></a><a class="text-link" href="#about">A little about me <span>↗</span></a></div></div>
+      <div class="hero-visual" aria-label="Abstract editorial illustration"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="visual-core"><span class="core-icon">✳</span><span>IDEAS INTO<br>IMPACT</span></div><div class="visual-note note-top">01 / THINK</div><div class="visual-note note-bottom">02 / MAKE</div><div class="hero-caption">Research. Engineering. A broader perspective.</div></div>
+      <div class="hero-foot"><span>SCROLL TO EXPLORE</span><span class="down-arrow">↓</span><span>CAMBRIDGE, MA</span></div>
+    </section>
+    <section class="intro-band"><div class="wrap intro-inner"><span class="section-index">01 / THE SHORT VERSION</span><p>I work across <strong>biomedical research</strong>, <strong>data</strong>, and <strong>human-centered questions</strong>—from therapeutic research to studying how spaces shape community.</p></div></section>
+    <section class="section wrap work" id="work"><div class="section-head"><div><div class="section-index">02 / SELECTED WORK</div><h2>Projects & explorations<span class="accent">.</span></h2></div><p>A few things I’ve investigated, analyzed, and built along the way.</p></div><div class="project-grid" id="project-grid"></div></section>
+    <section class="section experience-section" id="experience"><div class="wrap"><div class="section-head"><div><div class="section-index">03 / WHERE I’VE WORKED</div><h2>Experience<span class="accent">.</span></h2></div><p>Different settings, one throughline: learning by doing.</p></div><div class="experience-list" id="experience-list"></div></div></section>
+    <section class="section wrap about-section" id="about"><div class="about-art"><div class="about-photo" role="img" aria-label="Portrait placeholder"><span>YOUR PHOTO<br>GOES HERE</span><small>assets/profile.jpg</small></div><div class="about-sticker">ALWAYS<br>LEARNING ↗</div></div><div class="about-copy"><div class="section-index">04 / BEYOND THE BULLETS</div><h2>A little more<br>about me<span class="accent">.</span></h2><p>I’m studying biomedical engineering at Harvard, where I’m interested in how technical ideas move from a lab or dataset into real-world use. I’ve worked in computational biology, clinical care, and biotech research, and I like projects that push me to ask better questions across disciplines.</p><p>Outside of that work, I’m an Army ROTC cadet, a taekwondo team leader, and someone who loves learning languages and exploring new places. Studying in Korea has been one more way to connect those interests with a wider view of the world.</p><div class="interest-tags"><span>Biomedical engineering</span><span>Research</span><span>Taekwondo</span><span>Korean</span></div></div></section>
+    <section class="contact-section" id="contact"><div class="wrap contact-inner"><div class="section-index">05 / SAY HELLO</div><h2>Let’s make something<br><em>meaningful.</em></h2><p>Interested in collaborating, connecting, or talking about a project? I’d love to hear from you.</p><div class="contact-links" id="contact-links"></div><div class="footer-line"><span>© <span id="year"></span> Audrey</span><span>Designed with curiosity, built to grow.</span><a href="#top">Back to top ↑</a></div></div></section>
+  </main>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close project" type="button">×</button><div id="dialog-content"></div></dialog>
+</body>
+</html>
